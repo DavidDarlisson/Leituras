@@ -1,0 +1,12 @@
+f = 80Hz
+R_b = 1200Ω
+R_a = 1200Ω
+C = 1.44/((R_a + 2*R_b)*f)|μF
+
+T_H = 0.69*(R_a + R_b)*C|ms
+T_L = 0.69*R_b*C|ms
+D = ((T_H)/(T_H + T_L))*100
+
+'<img style="height:275pt; width:322pt;" src="C:/Users/st393/Pictures/Calcpad/image_4271661028245702661.png" alt="image_4271661028245702661.png">
+
+
